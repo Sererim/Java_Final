@@ -1,0 +1,6 @@
+ID;NAME;CPU;GPU;RAM;Storage;Screen size;Color;Weight;Price (Rub);
+1;Acer 3;Intel i4;AMD;8GB;256GB;1920X1860;Black;5.5kg;29000;
+2;Acer 3;Intel i4;AMD;8GB;256GB;1920X1860;Silver;5.5kg;29000;
+3;Acer 3;Intel i4;AMD;8GB;256GB;1920X1860;White;5.5kg;29000;
+4;Acer 3;Intel i4;AMD;8GB;256GB;1920X1860;Blue;5.5kg;29000;
+5;Acer 3;Intel i4;AMD;8GB;256GB;1920X1860;Pink;5.5kg;29000;
