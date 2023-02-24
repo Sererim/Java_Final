@@ -8,7 +8,7 @@ public class Laptop {
 
     private ArrayList<String> data = new ArrayList<String>();
     private ArrayList<String> new_data = new ArrayList<String>();
-    private static File file = new File("\\data.txt");
+    private static File file = new File("data.txt");
     private Scanner scan_new = new Scanner(System.in);
     private Scanner scan_flow = new Scanner(System.in);
 
@@ -17,10 +17,10 @@ public class Laptop {
         String foo = "";
         ArrayList<String> bar = new ArrayList<String>();
         try (Scanner sc = new Scanner(file)) {
-                sc.useDelimiter(";");
-                foo = sc.next();
+            do{foo += sc.next();}
+                while(sc.next() != null);
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("ERROR ON READING DARA");
         }
         System.out.println(foo);
         Collections.addAll(bar, foo);
